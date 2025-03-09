@@ -1,0 +1,24 @@
+#SideMenu{
+    min-height: 100vh;
+    max-height: 90%;
+   min-width: 250px;
+    .icon{
+        font-size: 25px;
+        color: var(--mainRed);
+    }
+    #logo{
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--mainRed);
+      cursor: pointer;
+    }
+    #ActiveLink{
+        background-color: var(--mainYellow);
+    }
+     .Link{
+        transition: ease all 400ms ;
+     }
+    .Link:hover{
+        background-color: var(--mainYellow);
+    }
+}

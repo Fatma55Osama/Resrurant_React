@@ -1,0 +1,9 @@
+#backbtn{
+    font-size: 35px;
+    &:hover{
+        background-color: var(--mainYellow);
+    }
+}
+.cart{
+    font-size: 25px;
+}
