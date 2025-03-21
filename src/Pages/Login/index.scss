@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+#sec1{
+    background-color: #f4f5f2;
+    font-family: "Glory", sans-serif;
+    min-height: 100vh;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#iform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    /* height: 450px; */
+}
+#iform span{
+   color: #bfbebf;
+   margin-bottom:10px ;
+   
+}
+ #text1{
+    font-weight: 600;
+}
+#inp1{
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #f5f4f3;
+    background-color: #f5f4f3;
+    margin-bottom:10px ;
+    outline: none;
+    padding: 10px;
+
+}
+#inp2{
+   width: 80%;
+    background-color: #f5f4f3;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #f5f4f3;
+    margin-bottom:20px ;
+    outline: none;
+    padding: 10px;
+    
+}
+#btn1{
+    background-color: #ffca40;
+    border: 1px solid #ffca40;
+    height: 40px;
+    width: 80%;
+    border-radius: 12px;
+    font-weight:600 ;
+    margin-bottom:10px ;
+}
+
+#aboiform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: 90%;
+}
+#text2{
+   color: #dbdbda;
+   padding-left: 36%;
+}
+#btones{
+    width: 80%;
+    height: 50px;
+}
+#btn2{
+    width: 48%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+}
+#btn2 a{
+    text-decoration: none;
+    color: black;
+}
+#btn3{
+    width: 48%;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+}
+#btn3 a{
+    text-decoration: none;
+    color: black;
+}
+#ancer a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+#ancer span a{
+    color:#bfbebf ;
+    font-size: 18px;
+}
+.camel{
+    margin-left: 160px;
+}
+@media screen and (max-width:767px){
+    #all{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #aboiform{
+       display: flex;
+       min-height: 100vh;
+
+    }
+    #sec1{
+        display: none;
+    }
+    #inp1{
+        width: 100%;
+    }
+    #inp2{
+        width: 100%;
+    }
+    #btones{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #btn1{
+        width: 100%;
+    }
+    #btn3{
+        width: 48%;
+        font-size: 14px;
+        background-color: #f5f4f3;
+    }
+    #btn3  a{
+        width: 50%;
+        font-size: 10px;
+    }
+    #btn3 img{
+        width: 30px;
+        height: 20px;
+    }
+    #btn2{
+        width: 48%;
+        font-size: 14px;
+        background-color: #f5f4f3;
+    }
+    #btn2  a{
+        width: 50%;
+        font-size: 10px;
+    }
+    #btn2 img{
+        width: 30px;
+        height: 20px;
+    }
+    #ancer a{
+        font-size: 14px;
+    }
+    #ancer span{
+        font-size: 14px;
+    }
+    #ancer span a{
+        font-size: 14px;
+    }
+    #iconimg{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:768px ) and (max-width:992px){
+    
+    #aboiform{
+        display: flex;
+        min-height: 100vh;
+ 
+     }
+    #inp1{
+        width: 100%;
+    }
+    #inp2{
+        width: 100%;
+    }
+    #btones{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #btn1{
+        width: 100%;
+    }
+    #btn3{
+        width: 48%;
+        font-size: 14px;
+        background-color: #f5f4f3;
+    }
+    #btn3  a{
+        width: 50%;
+        font-size: 10px;
+    }
+    #btn3 img{
+        width: 30px;
+        height: 20px;
+    }
+    #btn2{
+        width: 48%;
+        font-size: 14px;
+        background-color: #f5f4f3;
+    }
+    #btn2  a{
+        width: 50%;
+        font-size: 10px;
+    }
+    #btn2 img{
+        width: 30px;
+        height: 20px;
+    }
+    #ancer a{
+        font-size: 14px;
+    }
+    #ancer span{
+        font-size: 14px;
+    }
+    #ancer span a{
+        font-size: 14px;
+    }
+    #iconimg{
+        /* margin-left: 0; */
+    }
+ #carouselExampleRide{
+     display: flex;
+    
+     }
+
+ #carouselExampleRide img{
+    width: 80% !important;
+    margin-right:350px ;
+
+ }
+   
+}

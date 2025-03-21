@@ -1,0 +1,13 @@
+.allcatproduct {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.catover {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}

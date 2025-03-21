@@ -3,9 +3,10 @@ import styles from './index.module.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { IoIosArrowRoundBack } from 'react-icons/io'
 import { FaAngleRight, FaShoppingCart } from 'react-icons/fa'
-import { useCategories } from '../../Pages/Store'
+import { useCategories, useSideCart } from '../../Pages/Store'
 export default function NavHeader({ tabName }) { // هنا بقي هقوله انت تسيبك من حته تاب نام لي علشان معتمدة علي الاسم والاسم ممكن يتغير انت تروح تشوف لو لقيت ان الاكتف كاتيجوري مش بصفر يبقي هو فاتح واحده منهم
     const { active_cat_id } = useCategories()
+    const { openCart, productInCart } = useSideCart()
     return (
         <div className='d-flex  p-3 align-items-center justify-content-between'>
             <div className='d-flex gap-4 p-3 align-items-center'>
@@ -26,6 +27,9 @@ export default function NavHeader({ tabName }) { // هنا بقي هقوله ا�
                     <p className='m-0'>{tabName}</p>
                 </div>
             </div>
-            <FaShoppingCart className={styles.cart + " me-5"}/>
+            <div className='d-flex '>
+                <FaShoppingCart onClick={openCart} className={styles.cart + " me-5"} />
+                <span className={styles.count + " d-flex justify-content-center align-items-center"}>{productInCart.reduce((acc, el) =>  acc + el.qty , 0)}</span>
+            </div>
         </div>)
 }

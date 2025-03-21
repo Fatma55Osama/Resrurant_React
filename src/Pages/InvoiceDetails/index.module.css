@@ -1,0 +1,12 @@
+.details{
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+    .contentdetails{
+     height: auto;
+     img{
+        height: 50px;
+        object-fit: contain;
+     }
+    }
+}

@@ -1,9 +1,18 @@
-#backbtn{
-    font-size: 35px;
-    &:hover{
-        background-color: var(--mainYellow);
-    }
+#backbtn {
+  font-size: 35px;
+  &:hover {
+    background-color: var(--mainYellow);
+  }
 }
-.cart{
-    font-size: 25px;
+.cart {
+  font-size: 25px;
 }
+  .count {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    margin-left: -50px;
+    margin-top: -18%;
+  }
